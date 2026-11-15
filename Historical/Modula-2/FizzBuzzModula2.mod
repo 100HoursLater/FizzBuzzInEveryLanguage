@@ -1,6 +1,8 @@
-Module FizzBuzz;
+MODULE FIZZBUZZ;
 
     FROM InOut IMPORT WriteString, WriteInt, WriteLn;
+VAR
+ i : INTEGER;
 
     BEGIN
         FOR i := 1 TO 100 DO
@@ -14,7 +16,7 @@ Module FizzBuzz;
                 WriteInt(i,0);
             END;
             WriteLn;
-        END;
-    FizzBuzz;
-END;
+        END
+END FIZZBUZZ.
+
      

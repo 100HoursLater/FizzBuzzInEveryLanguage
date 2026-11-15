@@ -1,4 +1,4 @@
-fizzbuzz :: (n: i32) {
+fizzbuzz :: (n: s32) {
     for i: 1..n {
         if i % 15 == 0 {
             print("FizzBuzz\n");
