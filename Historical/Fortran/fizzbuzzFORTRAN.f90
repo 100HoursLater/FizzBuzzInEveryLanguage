@@ -3,7 +3,6 @@ program fizzbuzz
     implicit none
 
     integer :: i
-    character*8 :: stringout
 
     do i=1, 100
         if (mod(i,15)==0) then
