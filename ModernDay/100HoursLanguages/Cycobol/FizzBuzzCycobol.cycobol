@@ -1,0 +1,11 @@
+FOR(INTEGER i ASSIGN 1; i LESS-THAN-EQUALS 100; i-PLUS-PLUS) {
+    IF (i MODULO 15 COMPARE 0) {
+        IO.PRINT("FizzBuzz\n");
+    } ELSE IF (i MODULO 3 COMPARE 0) {
+        IO.PRINT("Fizz\n");
+    } ELSE IF (i MODULO 5 COMPARE 0) {
+        IO.PRINT("Buzz\n");
+    } ELSE {
+        IO.PRINT(i'\n');
+    };
+}; 
