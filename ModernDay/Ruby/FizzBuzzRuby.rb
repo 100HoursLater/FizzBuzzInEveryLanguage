@@ -1,18 +1,12 @@
-def fizzbuzz(i)
-    fizz_buzz_series = Array.new
-    number = 1
-    limit.times do
-        if (number % 15 == 0)
-            fizz_buzz_series.push('FizzBuzz')
-        elsif (number % 3 == 0) 
-            fizz_buzz_series.push('Fizz')
-        elsif (number % 5 == 0) 
-            fizz_buzz_series.push('Buzz')
-        else 
-            fizz_buzz_series.push(number)
-        end 
-    number = number + 1
+(1..100).each do |i|
+    if i % 15 == 0
+        puts "FizzBuzz"
+    elsif i % 3 == 0 
+        puts "Fizz"
+    elsif i % 5 == 0 
+        puts "Buzz"
+    else
+        puts i
     end
-fizz_buzz_series
 end
     
