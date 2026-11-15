@@ -1,0 +1,4 @@
+project Default is
+   for Source_Dirs use (".");
+   for Languages use ("Ada");
+end Default;
