@@ -8,6 +8,6 @@ for(int i = 1; i <= 100; i++) {
     } else if (i % 5 == 0) {
         io->print(msg,"Buzz\n");
     } else {
-        io->print(msg,i"\n");
+        io->print("$i\n",i);
     }
 }
