@@ -9,7 +9,7 @@ int main() {
         } else if (i % 5 == 0) {
             std::cout << "Buzz" << std::endl;
         } else {
-            std::cout << i << "\n";
+            std::cout << i << std::endl;
         }
     }
     return 0;
