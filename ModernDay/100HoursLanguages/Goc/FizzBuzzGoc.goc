@@ -12,4 +12,5 @@ int FizzBuzz() {
             std &print(msg,"%i\n",i);
         };
     };
+  return 0;
 };
