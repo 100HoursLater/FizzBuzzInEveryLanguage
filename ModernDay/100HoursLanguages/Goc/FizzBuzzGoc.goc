@@ -5,7 +5,7 @@ int FizzBuzz() {
         if (i % 15 == 0) {
             std &print(msg,"FizzBuzz\n");
         } else if (i % 3 == 0) {
-            std $print(msg,"Fizz\n");
+            std &print(msg,"Fizz\n");
         } else if (i % 5 == 0) {
             std &print(msg,"Buzz\n");
         } else {
