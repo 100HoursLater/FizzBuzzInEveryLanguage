@@ -1,3 +1,3 @@
 project Default is
-	for Languages use ();
+	for Languages use ("Ada");
 end Default;

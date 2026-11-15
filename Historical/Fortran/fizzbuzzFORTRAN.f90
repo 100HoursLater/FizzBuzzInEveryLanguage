@@ -1,24 +1,16 @@
 program fizzbuzz
+  implicit none
+  integer :: i
 
-    implicit none
-
-    integer :: n
-    integer :: i = 1
-    character*8 :: stringout
-
-    do i=1, n 
-        stringout = ""
-        if (mod(i,15)==0) then
-            stringout = "FizzBuzz"
-        endif 
-        if (mod(i,3)==0) then
-            stringout = "Fizz"
-        endif
-        if (mod(i,5)==0) then
-            stringout = "Buzz"
-        endif
-        if (stringout == "") then
-            write(stringout,"(1i4)") i
-        endif
-    end do
+  do i = 1, 100
+     if (mod(i, 15) == 0) then
+        print '(a)', 'FizzBuzz'
+     else if (mod(i, 3) == 0) then
+        print '(a)', 'Fizz'
+     else if (mod(i, 5) == 0) then
+        print '(a)', 'Buzz'
+     else
+        print '(i0)', i
+     end if
+  end do
 end program fizzbuzz
